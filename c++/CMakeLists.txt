@@ -5,3 +5,5 @@ SET(CMAKE_CXX_STANDARD 14)
 
 ADD_EXECUTABLE(throw throw.cc)
 ADD_EXECUTABLE(reload reload.cc)
+ADD_EXECUTABLE(stl stl.cc)
+ADD_EXECUTABLE(template template.cc)
