@@ -1,3 +1,12 @@
+/*
+ * @Copyright (c) 2014-2020 zhoubo :  All rights reserved.
+ * @Description:
+ * @Author: 周波
+ * @Date: 2021-02-28 12:21:36
+ * @LastEditors: 周波
+ * @LastEditTime: 2021-02-28 12:21:37
+ * @FilePath: /c++/template.cc
+ */
 #include <iostream>
 #include <stdint.h>
 #include <vector>
@@ -15,7 +24,6 @@ auto sum(T &a, T &b)
 template <typename T>
 auto sum(T &&a, T &&b)
 {
-    std::find
     std::cout << "&&" << a + b << std::endl;
     return a + b;
 }
