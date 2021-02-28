@@ -42,4 +42,6 @@ int32_t main(int32_t argc, char **args)
 }
 
 // std::copy()
-//std::back_inserter()
+// std::back_inserter()
+// std::distance
+// multiplies<int>()(3, 5)
